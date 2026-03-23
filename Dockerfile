@@ -7,6 +7,8 @@ RUN : \
             curl \
             g++ \
             git \
+            xz-utils \
+            zlib1g-dev \
  && rm -rf /var/lib/apt/lists/* \
  && :
 
