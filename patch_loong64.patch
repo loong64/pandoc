@@ -1,0 +1,12 @@
+diff --git a/linux/make_artifacts.sh b/linux/make_artifacts.sh
+index dff3cc2..80e842d 100644
+--- a/linux/make_artifacts.sh
++++ b/linux/make_artifacts.sh
+@@ -17,6 +17,7 @@ case "$MACHINE" in
+   aarch64) ARCHITECTURE=arm64;;
+   armv6l | armv7l) ARCHITECTURE=armhf;;
+   riscv64) ARCHITECTURE=riscv64;;
++  loongarch64) ARCHITECTURE=loong64;;
+   *)       ARCHITECTURE=unknown;;
+ esac
+ 
